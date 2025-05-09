@@ -10,9 +10,18 @@ import './App.css';
 function App() {
   const [count, setCount] = useState(0);
 
+  const printHello = () => {
+    return <p>hello, world</p>;
+  };
+
+  const printGoodbye = () => {
+    return <p>Goodbye, world</p>;
+  };
+
   return (
     <>
-      <p>hello, world</p>
+      {printHello}
+      {printGoodbye}
     </>
   );
 }
