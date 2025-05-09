@@ -13,7 +13,6 @@ function App() {
   return (
     <>
       <p>hello, world</p>
-      <p>goodbye, world</p>
     </>
   );
 }
