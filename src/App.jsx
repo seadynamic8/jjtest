@@ -15,12 +15,7 @@ function App() {
     return <p>{str}</p>;
   };
 
-  return (
-    <>
-      {print('Hello, world')}
-      {print('Goodbye, world')}
-    </>
-  );
+  return <>{print('Hello, world')}</>;
 }
 
 export default App;
