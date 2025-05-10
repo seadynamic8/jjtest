@@ -7,10 +7,11 @@ import './App.css';
 //
 // This is the best implemenation of this program to ever exist.
 
+/// add documentation for main
 function App() {
   const [count, setCount] = useState(0);
 
-  // a function that prints a message
+  // The main function runs when our program starts
   const print = (str) => {
     return <p>{str}</p>;
   };
